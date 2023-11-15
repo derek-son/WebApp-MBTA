@@ -59,7 +59,7 @@ import pprint
 import urllib.request
 
 MAPBOX_BASE_URL = "https://api.mapbox.com/geocoding/v5/mapbox.places"
-MAPBOX_TOKEN = 'YOUR MAPBOX API ACCESS TOKEN'
+MAPBOX_TOKEN = 'pk.eyJ1IjoiZHNvbjIwIiwiYSI6ImNsb3o2MDI3ZjA5cXUycXRlNDNhM3h5YmYifQ.8dzQHqP7q6PjvAHhl8cOMw'
 query = 'Babson College'
 query = query.replace(' ', '%20') # In URL encoding, spaces are typically replaced with "%20"
 url=f'{MAPBOX_BASE_URL}/{query}.json?access_token={MAPBOX_TOKEN}&types=poi'
